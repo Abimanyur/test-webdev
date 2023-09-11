@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Recursive', sans-serif; 
+    
+}
+
+body{
+    padding: 70px 175px ;
+    background-color: rgb(35, 40, 48);
+}
+
+.header{
+    min-height: 500px;
+    background-color:232830;
+    display:block;
+    
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    font-family: Poppins;
+}
+
+.top_nav{
+    display: flex;
+    height:fit-content;
+    width: 100%;
+}
+#title{
+    flex: 2;
+    font-size: 30px;
+    height: fit-content;
+}
+nav{
+    flex-direction:row;
+    display: flex;
+    height: fit-content;
+
+    
+}
+
+nav a{
+    
+    padding: 15px ;
+    font-size: 24px;
+    
+}
+
+.banner{
+    flex-direction: column;
+    padding-top: 50px;
+    display:block;
+    width: 1001px;
+    min-height: 326px;
+}
+
+.banner h1{
+    color:rgb(255, 117, 117);
+    text-align: center;
+    padding-top:20px ;
+    font-size:5vw;
+    font-family:Cursive Recursive;
+    font-weight: 400;
+    
+}
+.banner h3{
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+    font-family: poppins;
+    
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 150px;
+}
+.headline{
+    padding: 5px;
+}
+.button img{
+    padding:4px;
+    padding-top: 5px;
+    width: 20px;
+    padding-bottom: 0%;
+
+}
+.line{
+    height: 1px;
+    background-color:#919191;
+    margin: 8px;
+}
+.nav a{
+    font-size: 22px;
+    padding-left: 24px;
+    color: #919191;
+    text-decoration: none;
+}
+.nav{
+    padding: top 1px;
+}
+.page{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.panel{
+    background-color: white;
+    max-width:309px;
+    margin:12px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    
+}
+.panel img{
+    
+    padding: 17px;
+}
+.info{
+    padding: 17px ;
+}
+.panel p{
+    color:black;
+    padding: 0px 17px;
+    font-family: Poppins;
+    font-weight:600;
+}
+.info p{
+    padding: 0;
+    font-weight:400;
+}
+
+.panel h6{
+    color:black;
+    padding: 15px 0px ;
+    
+}
+.page_num{
+    display: flex;
+    justify-content: center;
+    
+}
+.page_num a{
+    padding: 8px;
+    text-decoration: none;
+    color: #919191;
+}
+

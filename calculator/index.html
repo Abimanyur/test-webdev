@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@100;400;500&family=Recursive:CRSV@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contaner">
+        <div class="cal">
+        <input  type="text" placeholder="0" id="screen1">
+        <button onclick="Clear()">C</button>
+        <button onclick="display('/')">/</button>
+        <button onclick="display('*')">*</button>
+        <button onclick="display('-')">-</button>
+        <button onclick="display('7')">7</button>
+        <button onclick="display('8')">8</button>
+        <button onclick="display('9')">9</button>
+        <button class="plus" onclick="display('+')">+</button>
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button class="enter" onclick="Cal()">=</button>
+        <button class="zero" onclick="display('0')">0</button>
+        <button onclick="del()">Del</button>
+        
+
+     </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>

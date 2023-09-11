@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: end;
+}
+
+.side-toggle{
+   
+    color: #008cff;
+    background: transparent;
+    border: transparent;
+    font-size: 2rem;
+    margin: 2rem 3rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+.side-toggle:hover{
+    color: #008cff8f;
+    
+}
+
+@keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+aside{
+    position: fixed;
+    left:0;
+}

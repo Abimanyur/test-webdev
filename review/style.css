@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "open sans",sans-serif;
+}
+
+main{
+  background-color:#f1f5f8;
+  display: grid;
+
+  min-height: 100vh;
+  place-items:center;
+  
+}
+
+.container {
+  width: 80vw;
+  max-width :620px ;
+}
+
+.titel{
+  display: grid;
+  place-items: center;
+  margin-bottom: 2.5rem;
+}
+
+article{
+  display: grid;
+  place-items: center;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin:0.5rem; 
+  box-shadow :0px 5px 15px rgb(0, 0, 0,0.1);
+}
+
+article:hover{
+  box-shadow: 0px 5px 15px rgb(0, 0, 0,0.2);
+}
+h1{
+  color:#102a42;
+  margin-bottom:10px;
+  font-size: 2.5rem;
+}
+.underline{
+  width: 90px;
+  height: 4px;
+  background-color:#49a6e9 ;
+}
+
+.img-container{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   position: relative;
+   background-color:hsl(205, 78%, 60%) ;
+   margin-bottom: 30px;
+}
+
+.img-container::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10e";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background:hsl(205, 78%, 60%);
+  color:white;
+}
+
+#person-img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  top:4px;
+  right:7px;
+  object-fit: cover;
+}
+
+.name{
+  letter-spacing: 4px;
+  margin-bottom: 8px;
+}
+.work{
+  color: #49a6e9;
+  font-weight: 100;
+  font-size: 13px;
+  margin-bottom:15px;
+  text-transform: uppercase;
+}
+
+p{
+  color: #707070;
+  margin-bottom: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.but{
+  color: rgba(73, 166, 233, 0.712);
+  border: none;
+  background-color: white;
+  font-size: 1.3rem;
+  margin: 0 10px;
+}
+header{
+  margin-bottom: 0.7rem;
+}
+
+.but-me{
+  padding: 4px 6px;
+  color: #49a6e9;
+  border-color: #49a6e9 ;
+  border-radius: 8px;
+  background-color: #97d4ff49;
+}
+
+.but-me:hover{
+  background-color: #49a6e9;
+  color: black;
+  transition: 0.5s;
+}
