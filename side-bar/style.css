@@ -6,11 +6,13 @@
 
 main{
     display: flex;
-    justify-content: end;
+    background: #f1f5f8;
+    height: 100vh;
 }
 
 .side-toggle{
-   
+    position: fixed;
+    right: 1px;
     color: #008cff;
     background: transparent;
     border: transparent;
@@ -41,4 +43,14 @@ main{
 aside{
     position: fixed;
     left:0;
+}
+h1{
+  font-size: 2.1rem;
+  display: inline;
+  margin: 2rem 2rem;
+}
+.close-btr{
+  background: transparent;
+  border: transparent;
+  font-size: 1.4rem;
 }
