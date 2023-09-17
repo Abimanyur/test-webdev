@@ -9,12 +9,28 @@
 </head>
 <body>
     <main>
-        <button class="side-toggle"><i class="fa-solid fa-bars"></i></button>
+        <button class="side-toggle"><i id="togglebtr" class="fa-solid fa-bars"></i></button>
         
-        <aside>
+        <aside id="sidebar">
+            <div class="side-header">
             <h1>Coding Addict</h1>
-            <button class="close-btr"><i class="fa-solid fa-x"></i></button>
+            <button class="close-btr"><i id="close-btr" class="fa-solid fa-x"></i></button>
+            </div>
+            <ul class="link" >
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="icon">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-sketch"></i></a></li>
+            </ul>
         </aside>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
