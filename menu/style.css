@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:#f1f9ff;
+}
+.title-header{
+   height: 50vh;
+}
+.center-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    margin-top: 70px;
+    font-size: 2.5rem;
+    color: #102a42;
+    letter-spacing: 2px;
+}
+.line{
+    height: 4px;
+    width: 90px;
+    margin: auto;
+    background:#c59d5f;
+}
+ul{
+    margin: 2rem;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+li button{
+    background: none;
+    border-color: #c59d5f ;
+    padding: 5px 15px;
+    margin: 0.5rem;
+    border-radius: 10px;
+    color: #c59d5f;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+li button:hover{
+    background: #c59d5f;
+    color: white;
+}
+
+/* header end  */
+
+.menu{
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    
+}
+.food-box{
+    margin: 0px auto;
+    display: grid;
+    gap: 1rem 2rem;
+    max-width: 25rem;
+}
+.img-box img{
+    height: 150px;
+    width: 375px;
+    object-fit: cover;
+    border: 5px solid #c59d5f;
+    border-radius: 10px;
+}
+.food-info{
+    padding: 0px 1rem;
+}
+.food-info p{
+    padding: 1rem 0rem ;
+}
+.food-box header {
+    display: flex;
+    
+    justify-content: space-between;
+    border-bottom: dotted 1px;
+}
+.food-box header h4{
+    display: inline-block;
+}
+
+@media screen and (min-width: 1050px) {
+    .menu {
+      width: 95vw;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem 1rem;
+    }
+    
+    .img-box img {
+      height: 150px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .food-box {
+      grid-template-columns: 225px 1fr;
+      gap: 0 1.25rem;
+      margin: 0px auto;
+      max-width: 40rem;
+    }
+    .img-box img {
+      height: 175px;
+      width: 250px;
+    }
+    .menu{
+        gap: 2rem 0rem;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .food-info{
+        padding: 0;
+    }
+    .img-box img{
+        width: 100%;
+    }
+  }
+
+  .show-bgcolor{
+    background: #c59d5f;
+    color: #fff;
+  }
